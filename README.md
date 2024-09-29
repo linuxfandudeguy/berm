@@ -1,8 +1,7 @@
 
 # `berm`
 
-https://files.catbox.moe/tgnrso.webm
-
+[demo vid](https://youtu.be/68irhURe3IQ)
 ![Screenshot 2024-09-29 4 16 09 PM](https://github.com/user-attachments/assets/cd6d64e3-606f-49f8-b3b3-8b0992164c24)
 
 
