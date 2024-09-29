@@ -53,7 +53,8 @@ async function init() {
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>berm</title>
-                <style>
+                <link rel="icon" href="data:image/svg+xml, <svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;48px&quot; height=&quot;48px&quot; viewBox=&quot;0 0 48 48&quot;> <polyline points=&quot;7,17 20,24 7,31&quot; stroke-width=&quot;5&quot; fill=&quot;none&quot; stroke=&quot;%23FFFFFF&quot;/> <line x1=&quot;23&quot; y1=&quot;36&quot; x2=&quot;38&quot; y2=&quot;36&quot; stroke-width=&quot;5&quot; stroke=&quot;%23FFFFFF&quot;/> </svg>" type="image/svg+xml">                   
+                  <style>
                     body { font-family: monospace; background: black; color: white; }
                     #terminal { height: 90vh; overflow-y: scroll; white-space: pre; }
                     input { width: 100%; background: black; color: white; border: none; outline: none; }
