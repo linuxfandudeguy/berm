@@ -1,4 +1,4 @@
-name: CI
+name: ESlint
 
 on:
   push:
@@ -17,6 +17,8 @@ jobs:
       - name: ESLint checker
         uses: ninosaurus/eslint-check@v5.3.1
         with:
+          # Provide the default GitHub token
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           # Relative directory to node_modules
           custom-directory: node_modules
           # Relative path to eslint config file, e.g., .eslintrc
