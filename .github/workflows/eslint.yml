@@ -22,6 +22,4 @@ jobs:
           node-version: '22.3.0'
 
       - name: Run ESLint
-        run: |
-          set -e  # Exit immediately if a command exits with a non-zero status
-          npx eslint .  # Run ESLint on the current directory
+        run: bash -c 'set -e; npx eslint .'
