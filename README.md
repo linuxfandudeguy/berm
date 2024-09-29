@@ -167,6 +167,7 @@ OpenStdin: true,
  StdinOnce: false,
                });
 ```
+You can change the `Image` field to whatever you want.
 
 
 ## Features
