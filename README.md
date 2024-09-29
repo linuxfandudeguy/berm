@@ -31,7 +31,7 @@ To initiate `berm` using PNPM, you can use one of the two methods below:
 **Method 1: PNPM Init**
 
 ```bash
-pnpm init berm
+pnpm create berm
 ```
 
 **Method 2: PNPM DLX**
