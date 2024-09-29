@@ -182,6 +182,8 @@ Container started: 2a8e1b27d0f5b538ef9b0bcad5c03d1deb8615ae33b46428188812b5e70d6
 In this example:
 - The server is running locally at **http://localhost:3000**.
 - The Docker container has started, and the container ID is: **2a8e1b27d0f5b538ef9b0bcad5c03d1deb8615ae33b46428188812b5e70d6c05**. This long hexadecimal string is the unique identifier for your Docker container.
+
+
 This ID will change depending on what docker image you decide to load
 
 ## Features
