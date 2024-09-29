@@ -156,7 +156,9 @@ bun start
 </details>
 
 ## Customization
-The docker image can be customized at line 18 in the `server.js` file
+The docker image can be customized at line 18 in the `server.js` file.
+
+
 
 ## Features
 
