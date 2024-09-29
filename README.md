@@ -155,6 +155,9 @@ bun start
 ```
 </details>
 
+## Customization
+The docker file can be customized
+
 ## Features
 
 - **Browser-Based Execution:** Run Docker images directly in your browser without the need for local Docker installation.
