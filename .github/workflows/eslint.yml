@@ -1,10 +1,9 @@
-name: ESlint
+name: CI
 
 on:
-  push:
-    branches:
-      - master  # or any other branch you want to trigger on
   pull_request:
+    branches:
+      - master  # or any other branches you want to trigger on
 
 jobs:
   lint:
@@ -17,9 +16,6 @@ jobs:
       - name: ESLint checker
         uses: ninosaurus/eslint-check@v5.3.1
         with:
-          # Provide the default GitHub token
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          # Relative directory to node_modules
           custom-directory: node_modules
-          # Relative path to eslint config file, e.g., .eslintrc
           eslint-config-path: eslint.config.mjs
