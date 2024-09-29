@@ -156,8 +156,17 @@ bun start
 </details>
 
 ## Customization
+
 The docker image can be customized at line 18 in the `server.js` file.
 
+```javascript
+const container = await docker.createContainer({
+Image: 'archlinux', // Use your Docker image
+Tty: true,
+OpenStdin: true,
+ StdinOnce: false,
+               });
+```
 
 
 ## Features
