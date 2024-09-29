@@ -19,7 +19,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '22.3.0' 
+          node-version: '22.3.0'
 
       - name: Run ESLint
-        run: npx eslint . 
+        run: |
+          output=$(npx eslint .)
+          echo "$output"
+          if [ $? -ne 0 ]; then
+            echo "ESLint found issues. Exiting with error."
+            exit 1
+          fi
