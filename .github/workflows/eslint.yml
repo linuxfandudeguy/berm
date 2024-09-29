@@ -23,9 +23,5 @@ jobs:
 
       - name: Run ESLint
         run: |
-          output=$(npx eslint .)
-          echo "$output"
-          if [ $? -ne 0 ]; then
-            echo "ESLint found issues. Exiting with error."
-            exit 1
-          fi
+          set -e  # Exit immediately if a command exits with a non-zero status
+          npx eslint .  # Run ESLint on the current directory
