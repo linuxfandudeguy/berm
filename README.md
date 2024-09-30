@@ -34,10 +34,10 @@ To initiate `berm` using PNPM, you can use one of the two methods below:
 pnpm create berm
 ```
 
-**Method 2: PNPM DLX**
+**Method 2: PNPX**
 
 ```bash
-pnpm dlx create-berm@1.0.0
+pnpx create-berm@1.0.0
 ```
 
 After the installation, you can start the server with:
@@ -53,15 +53,9 @@ pnpm start
 <details>
   <summary>Click to Show NPX Instructions</summary>
 
-To initiate `berm` using NPX, you can use one of the two methods below:
+To initiate `berm` using NPX, you can use the method below:
 
-**Method 1: NPX Init**
-
-```bash
-npx init berm
-```
-
-**Method 2: NPX Create**
+**NPX Create**
 
 ```bash
 npx create-berm@1.0.0
@@ -70,9 +64,9 @@ npx create-berm@1.0.0
 After the setup, start the server with:
 
 ```bash
-npx run start
+npm run start
 # or
-npx start
+npm start
 ```
 </details>
 
@@ -107,15 +101,9 @@ npm start
 <details>
   <summary>Click to Show Yarn Instructions</summary>
 
-To initiate `berm` using Yarn, you can use one of the two methods below:
+To initiate `berm` using Yarn, you can use the method below:
 
-**Method 1: Yarn Init**
-
-```bash
-yarn init berm
-```
-
-**Method 2: Yarn Create**
+**Yarn Create**
 
 ```bash
 yarn create berm@1.0.0
@@ -134,15 +122,9 @@ yarn start
 <details>
   <summary>Click to Show Bun Instructions</summary>
 
-If you're using Bun, initiate `berm` with one of the following methods:
+If you're using Bun, initiate `berm` with the following method:
 
-**Method 1: Bun Init**
-
-```bash
-bun init berm
-```
-
-**Method 2: Bun Create**
+**Bun Create**
 
 ```bash
 bun create berm@1.0.0
