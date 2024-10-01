@@ -149,7 +149,7 @@ Image: 'archlinux', // Use your Docker image
 Tty: true,
 OpenStdin: true,
  StdinOnce: false,
-               });
+ });
 ```
 You can change the `Image` field to whatever you want.
 
