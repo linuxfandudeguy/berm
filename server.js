@@ -33,7 +33,7 @@ async function init() {
     // Attach to the container's shell
     async function attachToContainer(container) {
         const exec = await container.exec({
-            Cmd: ['/usr/bin/bash'], // Change this to the shell of your Docker image
+            Cmd: ['/bin/sh'], // Change this to the shell of your Docker image
             AttachStdin: true,
             AttachStdout: true,
             AttachStderr: true,
