@@ -31,13 +31,15 @@ To initiate `berm` using PNPM, you can use one of the two methods below:
 **Method 1: PNPM Init**
 
 ```bash
-pnpm create berm
+pnpm create berm 
+pnpm install
 ```
 
 **Method 2: PNPX**
 
 ```bash
 pnpx create-berm@1.0.0
+pnpm install
 ```
 
 After the installation, you can start the server with:
@@ -59,6 +61,7 @@ To initiate `berm` using NPX, you can use the method below:
 
 ```bash
 npx create-berm@1.0.0
+npm install
 ```
 
 After the setup, start the server with:
@@ -80,12 +83,14 @@ You can initiate `berm` using NPM as follows:
 
 ```bash
 npm init berm
+npm install
 ```
 
 **Method 2: NPM Exec**
 
 ```bash
 npm exec create-berm@1.0.0
+npm install
 ```
 
 Once the installation is complete, start the server with:
@@ -107,6 +112,7 @@ To initiate `berm` using Yarn, you can use the method below:
 
 ```bash
 yarn create berm@1.0.0
+yarn install
 ```
 
 After the installation, start the server with:
@@ -128,6 +134,7 @@ If you're using Bun, initiate `berm` with the following method:
 
 ```bash
 bun create berm@1.0.0
+bun install
 ```
 
 After installation, start the server with:
