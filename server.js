@@ -9,7 +9,7 @@ async function init() {
     const server = http.createServer(app);
     const io = new Server(server);
     const docker = new Docker();
-    const port = 3000;
+    const port = 9000;
 
     // Start the container and run an interactive shell
     async function startContainer() {
@@ -33,7 +33,7 @@ async function init() {
     // Attach to the container's shell
     async function attachToContainer(container) {
         const exec = await container.exec({
-            Cmd: ['/bin/sh'], // Change this to the shell of your Docker image
+            Cmd: ['/usr/bin/bash'], // change to zsh if needed
             AttachStdin: true,
             AttachStdout: true,
             AttachStderr: true,
