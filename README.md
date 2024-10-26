@@ -181,7 +181,6 @@ This ID will change depending on what docker image you decide to load.
 
 - **Browser-Based Execution:** Run Docker images directly in your browser without the need for local Docker installation.
 - **Compatibility:** Supports a variety of Docker images, allowing for flexible usage scenarios.
-- **Lightweight:** Efficiently runs terminal applications without the overhead of a full Docker environment.
 
 
 ## Contributing
