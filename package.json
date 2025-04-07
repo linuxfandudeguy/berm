@@ -6,7 +6,7 @@
     "start": "sudo node server.js"
   },
   "dependencies": {
-    "ansi_up": "^6.0.2",
+    "ansi_up": "^6.0.5",
     "dockerode": "*",
     "express": "*",
     "node-pty": "^1.0.0",

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ansi_up:
-        specifier: ^6.0.2
-        version: 6.0.2
+        specifier: ^6.0.5
+        version: 6.0.5
       dockerode:
         specifier: '*'
         version: 4.0.4
@@ -185,8 +185,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  ansi_up@6.0.2:
-    resolution: {integrity: sha512-3G3vKvl1ilEp7J1u6BmULpMA0xVoW/f4Ekqhl8RTrJrhEBkonKn5k3bUc5Xt+qDayA6iDX0jyUh3AbZjB/l0tw==}
+  ansi_up@6.0.5:
+    resolution: {integrity: sha512-bo4K8S5usgFivfgvgQozTC2EfusPf76o7w0LUVdAOkpISvVmQqtwCdF5c6okokrgIN13KhFIVB/0BhnNXueQeA==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -1044,7 +1044,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  ansi_up@6.0.2: {}
+  ansi_up@6.0.5: {}
 
   argparse@2.0.1: {}
 
